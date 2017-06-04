@@ -1,0 +1,254 @@
+<html>
+<head>
+<title>Template</title>
+<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+<script src="js/menu.js"></script>
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<link rel="stylesheet" type="text/css" href="css/style.css">
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous"> 
+
+<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+</head>
+<body>
+<div class="header">
+  <div id="header-1">Template</div>
+  <div id="header-2"><a href="#0" id="menu"><i class="fa fa-bars" aria-hidden="true"></i></a></div>
+  </div>
+
+<!-- main class for the body below header -->
+ <div class="main">
+     <div id="main-top">
+	       <div class="book">
+		          <div class="b-left">
+                   <!-- for carousals -->
+                   <div id="myCarousel" class="carousel slide res-car" data-ride="carousel">
+					  <!-- Indicators -->
+					  <ol class="carousel-indicators">
+					    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+					    <li data-target="#myCarousel" data-slide-to="1"></li>
+					    <li data-target="#myCarousel" data-slide-to="2"></li>
+					  </ol>
+
+					  <!-- Wrapper for slides -->
+					  <div class="carousel-inner">
+					    <div class="item active">
+					      <img src="images/city1.jpg" alt="Los Angeles" style="width:100%; height:33%;">
+					    </div>
+
+					    <div class="item">
+					      <img src="images/city2.jpg" alt="Chicago" style="width:100%;height:33%;">
+					    </div>
+
+					    <div class="item">
+					      <img src="images/city3.jpg" alt="New York" style="width:100%;height:33%;">
+					    </div>
+					  </div>
+
+					</div>
+
+					<!-- CAROUSAL 2 -->
+					<div id="myCarousel" class="carousel slide res-car" data-ride="carousel">
+					  <!-- Indicators -->
+					  <ol class="carousel-indicators">
+					    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+					    <li data-target="#myCarousel" data-slide-to="1"></li>
+					    <li data-target="#myCarousel" data-slide-to="2"></li>
+					  </ol>
+
+					  <!-- Wrapper for slides -->
+					  <div class="carousel-inner">
+					    <div class="item active">
+					      <img src="images/house1.jpg" alt="Los Angeles" style="width:100%; height:33%;">
+					    </div>
+
+					    <div class="item">
+					      <img src="images/house2.jpg" alt="Chicago" style="width:100%;height:33%;">
+					    </div>
+
+					    <div class="item">
+					      <img src="images/house3.jpg" alt="New York" style="width:100%;height:33%;">
+					    </div>
+					  </div>
+
+					
+					</div>
+
+					<!-- CAROUSAL 3-->
+					<div id="myCarousel" class="carousel slide res-car" data-ride="carousel">
+					  <!-- Indicators -->
+					  <ol class="carousel-indicators">
+					    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+					    <li data-target="#myCarousel" data-slide-to="1"></li>
+					    <li data-target="#myCarousel" data-slide-to="2"></li>
+					  </ol>
+
+					  <!-- Wrapper for slides -->
+					  <div class="carousel-inner">
+					    <div class="item active">
+					      <img src="images/city1.jpg" alt="Los Angeles" style="width:100%; height:33%;">
+					    </div>
+
+					    <div class="item">
+					      <img src="images/city2.jpg" alt="Chicago" style="width:100%;height:33%;">
+					    </div>
+
+					    <div class="item">
+					      <img src="images/city3.jpg" alt="New York" style="width:100%;height:33%;">
+					    </div>
+					  </div>
+
+					</div>
+		          </div>
+
+		          <div class="b-right">
+                  <!-- for login - signup button  -->
+	                  <div class="b-r-top">
+                            <button class="btn btn-primary" id="login">Login</button>
+                            <button class="btn btn-success" id="register">Signup</button>
+	                  </div>
+
+	                  <div id="b-r-bottom-register">
+                          
+                            <!--  EMAIL -->
+							<div class="form-group">
+							  <label for="example-email-input" class="col-2 col-form-label">Email</label>
+							  <div class="col-10">
+							    <input class="form-control input-sm" type="email" value="bootstrap@example.com" id="example-email-input">
+							  </div>
+							</div>
+
+							<!-- NAME -->
+						   <div class="form-group">
+							  <label for="text-id" class="col-2 col-form-label">Name</label>
+							  <div class="col-10">
+							    <input class="form-control input-sm" type="text" placeholder="Enter Name" id="text-id">
+							  </div>
+						   </div>
+
+
+						   <!--  PHONE -->
+							<div class="form-group">
+							  <label for="phone-id" class="col-2 col-form-label">Telephone</label>
+							  <div class="col-10">
+							    <input class="form-control input-sm" type="tel" value="1-(555)-555-5555" id="phone-id">
+							  </div>
+							</div>
+
+							 <!--  PASSWORD -->
+							  <div class="form-group">
+							    <label for="password-id">Password</label> 
+							    <input type="password" class="form-control input-sm" id="password-id" placeholder="Password">
+							  </div>
+
+							  <!--  SUBMIT BUTTON  -->
+  							  <button type="submit" class="btn btn-primary">Submit</button>
+	                  </div>
+	                  <div id="b-r-bottom-login" style="display: none;">
+	                          <!--  EMAIL -->
+							<div class="form-group">
+							  <label for="example-email-input" class="col-2 col-form-label">Email</label>
+							  <div class="col-10">
+							    <input class="form-control input-sm" type="email" value="bootstrap@example.com" id="example-email-input">
+							  </div>
+							</div>
+                            
+                            <!--  PASSWORD -->
+							  <div class="form-group">
+							    <label for="password-id">Password</label> 
+							    <input type="password" class="form-control input-sm" id="password-id" placeholder="Password">
+							  </div>
+
+							  <!--  SUBMIT BUTTON  -->
+  							  <button type="submit" class="btn btn-primary">Submit</button>
+
+	                  </div>
+		          </div>
+	       </div>         
+     </div>
+        <div id="main-top2" style="display: none;">
+	       <div class="book2">
+	              <!-- CATEGORY 1 -->
+		          <div class="container-fluid">
+                  <div class="dropdown">
+                     <button type="button" class="btn btn-default dropdown-toggle button-cat" data-toggle="dropdown">
+                      Mobile Brands<div class="caret" style="margin-left:10px;"></div>
+                      </button>                      
+                       <ul class="dropdown-menu drop-cat">
+                          <li><a href="">Samsung</a></li>
+                          <li><a href="">Lenovo</a></li>
+                          <li><a href="">LeTV</a></li>
+                          <li><a href="">Lava</a></li>
+                          <li><a href="">Apple</a></li> 
+                          <li><a href="">Micromax</a></li>
+                          <li><a href="">Videocon</a></li>
+                          <li><a href="">Nokia</a></li>
+                          <li><a href="">Motorola</a></li>
+                          <li><a href="">Mi</a></li>
+                          <li><a href="">Asus</a></li>
+                     </ul>
+                   </div>            
+            	 </div>
+
+
+            	 <!-- CATEGORY 2 -->
+            	 <div class="container-fluid">
+                  <div class="dropdown">
+                     <button type="button" class="btn btn-default dropdown-toggle button-cat" data-toggle="dropdown">
+                      Mobile Accessories<div class="caret" style="margin-left:10px;"></div>
+                      </button>                      
+                       <ul class="dropdown-menu drop-cat">
+                          <li><a href="">Back Covers</a></li>
+                          <li><a href="">Screen Guards</a></li>
+                          <li><a href="">Earphones</a></li>
+                          <li><a href="">OTG pendrives</a></li>
+                          <li><a href="">Powerbanks</a></li> 
+                          <li><a href="">SD Cards</a></li>
+                          <li><a href="">Mobile Cables</a></li>
+                          <li><a href="">Chargers</a></li>
+                          <li><a href="">Selfie-Sticks</a></li>
+                          <li><a href="">Smart Headphones</a></li>
+                          <li><a href="">Bluetooth headsets</a></li>
+                     </ul>
+                   </div>            
+            	 </div>
+
+
+            	 <!-- CATEGORY 3 -->
+            	 <div class="container-fluid">
+                  <div class="dropdown">
+                     <button type="button" class="btn btn-default dropdown-toggle button-cat" data-toggle="dropdown">
+                      Computer Accessories<div class="caret" style="margin-left:10px;"></div>
+                      </button>                      
+                      <ul class="dropdown-menu drop-cat">
+                          <li><a href="">Hardisk covers</a></li>
+                          <li><a href="">External Hardisks</a></li>
+                          <li><a href="">MousePad</a></li>
+                          <li><a href="">Laptop Bags</a></li>
+                          <li><a href="">Keyboard</a></li> 
+                          <li><a href="">Mouse</a></li>
+                          <li><a href="">Pendrive</a></li>
+                          <li><a href="">Back Covers</a></li>
+                          <li><a href="">Screens</a></li>
+                          <li><a href="">Charger</a></li>
+                          <li><a href="">Screen guards</a></li>
+                     </ul>
+                   </div>            
+            	 </div>
+	       </div>         
+     </div>
+
+ </div>
+
+
+
+</body>
+</html>
