@@ -168,6 +168,9 @@ body {
         .header{
                z-index:9999;
               flex-direction:row-reverse;
+              #header-1{
+                padding-left:0px;
+              }
             }
          .main{
             background:transparent;

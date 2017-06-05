@@ -134,6 +134,8 @@ body {
     body .header {
       z-index: 9999;
       flex-direction: row-reverse; }
+      body .header #header-1 {
+        padding-left: 0px; }
     body .main {
       background: transparent; }
       body .main #main-top {
