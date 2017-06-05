@@ -3,6 +3,7 @@
 <title>Template</title>
 <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
 <script src="js/menu.js"></script>
+<script src="js/validation.js"></script>
 <!-- Latest compiled and minified JavaScript -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 
@@ -117,12 +118,12 @@
 	                  </div>
 
 	                  <div id="b-r-bottom-register">
-                          
+                          <form name="myform"  method="post" action="#" onsubmit="return validate_registeration();">
                             <!--  EMAIL -->
 							<div class="form-group">
 							  <label for="example-email-input" class="col-2 col-form-label">Email</label>
 							  <div class="col-10">
-							    <input class="form-control input-sm" type="email" value="bootstrap@example.com" id="example-email-input">
+							    <input class="form-control input-sm" type="text" name="email" placeholder="bootstrap@example.com" id="example-email-input">
 							  </div>
 							</div>
 
@@ -139,37 +140,39 @@
 							<div class="form-group">
 							  <label for="phone-id" class="col-2 col-form-label">Telephone</label>
 							  <div class="col-10">
-							    <input class="form-control input-sm" type="tel" value="1-(555)-555-5555" id="phone-id">
+							    <input class="form-control input-sm" type="text" name="contact" placeholder="Contact no " id="phone-id">
 							  </div>
 							</div>
 
 							 <!--  PASSWORD -->
 							  <div class="form-group">
 							    <label for="password-id">Password</label> 
-							    <input type="password" class="form-control input-sm" id="password-id" placeholder="Password">
+							    <input type="password" class="form-control input-sm" name="password" id="password-id" placeholder="Password">
 							  </div>
 
 							  <!--  SUBMIT BUTTON  -->
   							  <button type="submit" class="btn btn-primary">Submit</button>
+  							 </form>
 	                  </div>
 	                  <div id="b-r-bottom-login" style="display: none;">
+	                      <form name="myform1"  method="post" action="#" onsubmit="return validate_login();">
 	                          <!--  EMAIL -->
 							<div class="form-group">
 							  <label for="example-email-input" class="col-2 col-form-label">Email</label>
 							  <div class="col-10">
-							    <input class="form-control input-sm" type="email" value="bootstrap@example.com" id="example-email-input">
+							    <input class="form-control input-sm" type="text" name="email1" value="bootstrap@example.com" id="example-email-input">
 							  </div>
 							</div>
                             
                             <!--  PASSWORD -->
 							  <div class="form-group">
 							    <label for="password-id">Password</label> 
-							    <input type="password" class="form-control input-sm" id="password-id" placeholder="Password">
+							    <input type="password" class="form-control input-sm" name="password1" id="password-id" placeholder="Password">
 							  </div>
 
 							  <!--  SUBMIT BUTTON  -->
   							  <button type="submit" class="btn btn-primary">Submit</button>
-
+  						</form>
 	                  </div>
 		          </div>
 	       </div>         
