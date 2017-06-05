@@ -67,6 +67,17 @@ body {
             display:flex;
             justify-content:space-around;
             align-items:center;
+            .date{
+               background-color: rgba(0,0,0,0.9);
+               position:fixed;
+               top:60px;
+               left:190px;
+               width:200px;
+               height:20px;
+               color:white;
+               font-family: AlegreyaSans-Italic;
+               font-size:40%;
+            }
             .book{
                background-color: rgba(0,0,0,0.3);
                width:69%;
@@ -162,7 +173,11 @@ body {
             
             #main-top{
                  overflow:scroll;
-
+                .date{
+                  z-index:9999;
+                  top:50px;
+                  left:0px;
+                }
                .book{
                   padding-left:5px;
                   padding-right:5px;

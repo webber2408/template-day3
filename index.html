@@ -28,6 +28,9 @@
 <!-- main class for the body below header -->
  <div class="main">
      <div id="main-top">
+           <div class="date">
+           <p id="cdate"></p>
+           </div>
 	       <div class="book">
 		          <div class="b-left">
                    <!-- for carousals -->
@@ -252,6 +255,8 @@
  </div>
 
 
-
+<script>
+document.getElementById("cdate").innerHTML = Date();
+</script>
 </body>
 </html>
